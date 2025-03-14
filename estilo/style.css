@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main{
+    width: 1120px;
+    margin: 40px auto 40px auto;
+    padding: 20px 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+.subtitle-green{
+    font-weight: bold;
+    color: #E1624F;
+    margin-bottom: 10px;
+}
+
+.introducao h1{
+    margin-bottom: 40px;
+}
+
+.txt-after-img{
+    margin-top: 24px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+---------
+.destinos .subtitle-green{
+    margin-top: 64px;
+}
