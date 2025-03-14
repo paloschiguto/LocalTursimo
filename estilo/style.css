@@ -1,36 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
 
-.main{
+.main {
     width: 1120px;
     margin: 40px auto 40px auto;
     padding: 20px 0;
 }
 
-p{
+p {
     font-size: 16px;
 }
 
-.subtitle-green{
+.line{
+    border-bottom: 1px solid #D9D9D9;
+    margin: 40px 0;
+}
+
+.subtitle-green {
     font-weight: bold;
     color: #E1624F;
     margin-bottom: 10px;
 }
 
-.introducao h1{
+.introducao h1 {
     margin-bottom: 40px;
+    font-size: 36px;
 }
 
-.txt-after-img{
+.txt-after-img {
     margin-top: 24px;
     text-align: center;
     font-style: italic;
     margin-bottom: 40px;
 }
----------
-.destinos .subtitle-green{
+
+.destinos .subtitle-green {
     margin-top: 64px;
+}
+
+.destinos h2 {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.destinos .txt {
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+.destinos h3 {
+    margin-top: 20px;
+    padding: 0 5px;
+    font-size: 28px;
+}
+
+.bom-para {
+    font-weight: bold;
+}
+
+ul li:nth-child(1) {
+    color: #0C51A7;
+}
+
+ul li:nth-child(2) {
+    color: #E5245E;
+}
+
+ul li:nth-child(3) {
+    color: #E95E10;
+}
+
+ul {
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+ul ::marker {
+    color: black;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
 }
